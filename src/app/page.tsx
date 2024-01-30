@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
           HTML & CSS Foudation
         </h3>
         {/* card descritiption */}
-        <p className="text-base text-slate-600 mt-2">
+        <p className="text-base sm:text-sm text-slate-600 mt-2 text-pretty">
           These language are the backbone of every websites, defining structure,
           connect and presentation.
         </p>

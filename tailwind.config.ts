@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        figtree: ["var(--figtree-font)"],
+        figtree: "'Figtree', sans-serif",
       },
       textColor: {
         fadedYellow: "#f4d04e",

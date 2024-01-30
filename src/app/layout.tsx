@@ -1,15 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-
-const figtree = localFont({
-  src: "../fonts/figtree.ttf",
-  display: "swap",
-  variable: "--figtree-font",
-});
 
 export const metadata: Metadata = {
   title: "card design",
@@ -23,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={figtree.className}>{children}</body>
+      <body className={`font-figtree`}>{children}</body>
     </html>
   );
 }
