@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        figtree: ["var(--figtree-font)"],
+      },
+      textColor: {
+        fadedYellow: "#f4d04e",
+      },
+      backgroundColor: {
+        fadedYellow: "#f4d04e",
       },
     },
   },
