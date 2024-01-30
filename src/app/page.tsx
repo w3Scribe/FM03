@@ -22,7 +22,7 @@ export default function Home(): JSX.Element {
         <p className="text-[12px] font-semibold text-zinc-800">Publishe 21 Dec 2023</p>
         {/* card title */}
         <h3 className="mt-4 text-zinc-800 font-bold text-xl">
-          HTML & CSS Foudation
+          HTML & CSS Foundations
         </h3>
         {/* card descritiption */}
         <p className="text-base sm:text-sm text-slate-600 mt-2 text-pretty">
